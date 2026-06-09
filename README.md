@@ -26,7 +26,7 @@ This project is a Python-based security log analysis tool designed to identify s
 
 🎯 Purpose
 
-The goal of this project is to demonstrate practical skills in:
+Demonstrate skills in system analysis, data processing and problem-solving applied to real-world security scenarios.
 
 * Data analysis
 * Cybersecurity fundamentals
