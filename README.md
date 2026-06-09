@@ -6,6 +6,12 @@ This project is a Python-based security log analysis tool designed to identify s
 
 ⸻
 
+## 🧩 Business Context
+
+This project simulates how companies can monitor security logs to identify threats and support decision-making in IT operations.
+
+⸻
+
 🚀 Features
 
 * 🔍 Detection of brute force login attempts
