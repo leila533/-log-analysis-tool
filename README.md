@@ -1,17 +1,76 @@
-# 🛡️ Analisador de Logs de Segurança (Auth Parser)
+🔐 Security Log Analysis Tool
 
-## 📝 Descrição
-Este projeto automatiza a auditoria de logs de acesso (`auth.log`), identificando tentativas de invasão por força bruta (Brute Force). Foi desenvolvido como parte dos meus estudos em **Sistemas de Informação** e **Cibersegurança**.
+📌 Overview
 
-## 🚀 Funcionalidades
-* **Varredura Dinâmica:** Lê arquivos de log e filtra eventos críticos.
-* **Threat Intelligence:** Realiza o fatiamento (parsing) da linha para extrair o endereço IP do atacante.
-* **Relatório Automatizado:** Contabiliza o total de incidentes para fins de conformidade (Compliance/LGPD).
+This project is a Python-based security log analysis tool designed to identify suspicious activities in system logs. It focuses on detecting brute force attacks and extracting potentially malicious IP addresses for auditing and investigation.
 
-## 🛠️ Tecnologias Utilizadas
-* **Python 3**
-* Manipulação de arquivos (I/O)
-* Lógica de tratamento de dados (Strings/Splitting)
+⸻
 
----
-*Este projeto demonstra competências básicas em automação de segurança e resposta a incidentes.*
+🚀 Features
+
+* 🔍 Detection of brute force login attempts
+* 🌐 Extraction of suspicious IP addresses
+* 📊 Log parsing and data analysis
+* ⚡ Fast processing of large log files
+* 🧠 Simple and efficient logic for security insights
+
+⸻
+
+🛠️ Technologies Used
+
+* Python
+* Regular Expressions (Regex)
+* Data structures (lists, dictionaries)
+
+⸻
+
+🎯 Purpose
+
+The goal of this project is to demonstrate practical skills in:
+
+* Data analysis
+* Cybersecurity fundamentals
+* Problem-solving with Python
+* Log processing and automation
+
+⸻
+
+▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/leila533/log-analysis-tool.git
+
+2. Navigate to the project folder:
+
+cd log-analysis-tool
+
+3. Run the script:
+
+python main.py
+
+⸻
+
+📂 Example Use Case
+
+The tool can be used to analyze server logs and detect:
+
+* Multiple failed login attempts
+* Unauthorized access patterns
+* Suspicious IP activity
+
+⸻
+
+📊 Future Improvements
+
+* Add graphical dashboard for visualization
+* Export results to CSV or JSON
+* Implement real-time log monitoring
+* Integrate with security APIs
+
+⸻
+
+👩‍💻 Author
+
+Developed by Leila Borges
+Aspiring Systems Analyst focused on business analysis, data and technology solution
